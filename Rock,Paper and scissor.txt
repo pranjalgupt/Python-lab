@@ -1,0 +1,16 @@
+i = input()
+j = input()
+i_move = input()
+j_move = input()
+if i_move == "Paper" and j_move == "Rock":
+    print(i+" Win")
+elif i_move == "Scissor" and j_move == "Paper":
+    print(i+" Win")
+elif i_move == "Rock" and j_move == "Scissor":
+    print(i+" Win")
+elif i_move == "Rock" and j_move == "Paper":
+    print(i+" Win")
+elif i_move == "Paper" and j_move == "Scissor":
+    print(j+" Win")
+elif i_move == "Scissor" and j_move == "Rock":
+    print(j+" Win")
